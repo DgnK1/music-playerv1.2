@@ -84,7 +84,7 @@ body {
 
 .progress-details {
     width: 100%;
-    height: 6px;
+    height: 10px;
     border-radius: 15px;
     background-color: #303030;
 }
@@ -93,15 +93,15 @@ body {
     width: 0%;
     height: inherit;
     border-radius: inherit;
-    background-color: #0987f6;
+    background: linear-gradient(356deg, rgb(199, 199, 199), rgb(30, 20, 236));
     cursor: pointer;
     position: relative;
 }
 
 .progress-bar span {
     position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 24px;
+    height: 24px;
     background-color: #0987f6;
     border-radius: inherit;
     transform: translateY(-25%);
